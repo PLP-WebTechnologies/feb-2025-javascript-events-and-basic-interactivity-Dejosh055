@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+.button-clicked {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.button-clicked button{
+    background-color: #068686;
+    color:#1e1e1e;
+    width: 200px;
+    padding:10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: monospace;
+    border-radius:20px;
+    box-shadow: 4px 4px 2px #0a0a0a;
+
+}
+
+.button-clicked button:hover{
+background-color: #034747;
+color: white;
+cursor: pointer;
+} 
+
+.button-clicked button:active{
+background-color: #025f5f;
+color: white;
+} 
+
+.slides img{
+    width:500px;
+    border-radius:10px;
+    margin-left: 10px;
+}
+
+#slides-btn{
+    width:50px;
+    border: none;
+}
+.form input{
+    width: 50%;
+    padding:10px;
+    border-radius: 10px;
+    border: 2px solid #1e1e1e;
+    margin: 5px;
+}
+
+

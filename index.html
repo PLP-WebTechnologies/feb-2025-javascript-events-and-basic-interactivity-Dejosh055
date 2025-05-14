@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="slides">
+    <img id="slideshow" src="https://img.freepik.com/free-photo/person-doing-yoga-accompanied-by-her-pet_23-2150062355.jpg?ga=GA1.1.1588927681.1747235091&semt=ais_hybrid&w=740"
+ alt="" >
+</div>
+<button id="slides-btn" onclick="prevImage()"> &#10094</button>
+ <button id="slides-btn" onclick="nextImage()"> &#10095</button>
+ <div class="form">
+  <input id="name" type="text" placeholder="Enter full name" required>
+  <input id="email" type="text" placeholder="Enter email" required>
+  <input id="password" type="password" placeholder="Enter password" required>
+ </div>
+ <p id="error-msg"></p>
+   <input type="submit" style="padding: 10px; background-color: green; color: white; border: none; border-radius: 10px; margin: 10px;">
+
+
+
+
+ <div class="button-clicked"><button onclick="changeColour()">click</button></div>
+
+
+<!-- <img id="slideshow" src="https://img.freepik.com/premium-psd/white-realistic-suv-transparent-background-3d-rendering-illustration_494250-70304.jpg?ga=GA1.1.1588927681.1747235091&semt=ais_hybrid&w=740" width="300" />
+<br>
+<button onclick="nextImage()">&#10095</button>
+
+<script>
+  const images = [
+    "https://img.freepik.com/premium-photo/mission-zero-with-white-car_1049636-291.jpg?ga=GA1.1.1588927681.1747235091&semt=ais_hybrid&w=740",
+    "https://img.freepik.com/premium-psd/modern-suv-isolated-background-3d-rendering-illustration_494250-218041.jpg?ga=GA1.1.1588927681.1747235091&semt=ais_hybrid&w=740",
+    "https://img.freepik.com/premium-psd/white-realistic-suv-transparent-background-3d-rendering-illustration_494250-70304.jpg?ga=GA1.1.1588927681.1747235091&semt=ais_hybrid&w=740"
+  ];
+  let index = 0;
+
+  function nextImage() {
+    index = (index + 1) % images.length;
+    document.getElementById("slideshow").src = images[index];
+  }
+</script> -->
+<script src="main.js"></script>
+</body>
+</html>
